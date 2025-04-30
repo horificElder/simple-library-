@@ -10,8 +10,11 @@ func main() {
 	var operation string
 	var name string
 	var value int
+	fmt.Println("enter operation")
 	fmt.Scanln(&operation)
+	fmt.Println("enter book name")
 	fmt.Scanln(&name)
+	fmt.Println("enter pages")
 	fmt.Scanln(&value)
 	// Map to store the books in the library Don't change this!
 	library := map[string]int{
